@@ -110,7 +110,12 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Sounds\gameOver2.wav" />
+    <Content Include="Sounds\monsterDeath.wav" />
+    <Content Include="Sounds\music.wav" />
+    <Content Include="Sounds\slamEffect.wav" />
+  </ItemGroup>
   <ItemGroup>
     <Resource Include="images\images\boss.png" />
     <Resource Include="images\images\floor.png" />
@@ -131,10 +136,6 @@
     <Resource Include="maps\Map4.txt" />
     <Resource Include="maps\Map5.txt" />
     <Resource Include="maps\Map6.txt" />
-    <Content Include="View\Sounds\gameOver2.wav" />
-    <Content Include="View\Sounds\monsterDeath.wav" />
-    <Content Include="View\Sounds\music.wav" />
-    <Content Include="View\Sounds\slamEffect.wav" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

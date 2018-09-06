@@ -15,13 +15,13 @@ namespace ProjectWanderer.View
 
         public static void MusicPlayer(string musicPath)
         {
-            mediaPlayer.Open(new Uri(musicPath));
+            mediaPlayer.Open(new Uri(musicPath, UriKind.Relative));
             mediaPlayer.Play();
 
         }
         public static void EffectPlayer(string effectPath)
         {
-            soundPlayer.Open(new Uri(effectPath));
+            soundPlayer.Open(new Uri(effectPath, UriKind.Relative));
             soundPlayer.Play();
 
         }

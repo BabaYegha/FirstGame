@@ -8,9 +8,9 @@ namespace ProjectWanderer.View
 {
     public static class Sounds
     {
-        public static string music = @"C:\Users\Znye\Documents\greenfox\wanderer-cs\ProjectWanderer\View\Sounds\music.wav";
-        public static string slamEffect = @"C:\Users\Znye\Documents\greenfox\wanderer-cs\ProjectWanderer\View\Sounds\slamEffect.wav";
-        public static string gameOver = @"C:\Users\Znye\Documents\greenfox\wanderer-cs\ProjectWanderer\View\Sounds\gameOver2.wav";
-        public static string monsterDeath = @"C:\Users\Znye\Documents\greenfox\wanderer-cs\ProjectWanderer\View\Sounds\monsterDeath.wav";
+        public static string music = @"./Sounds/music.wav";
+        public static string slamEffect = @"./Sounds/slamEffect.wav";
+        public static string gameOver = @"./Sounds/gameOver2.wav";
+        public static string monsterDeath = @"./Sounds/monsterDeath.wav";
     }
 }
